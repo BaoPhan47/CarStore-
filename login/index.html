@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-form">
+            <h2>Đăng nhập</h2>
+            <form action="#" id="in">
+                <div class="email">
+                    <label for="username">Tên đăng nhập</label>
+                    <input type="text" id="username" placeholder="Nhập tên đăng nhập" required>
+                </div>
+                <div class="password">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" id="password" placeholder="Nhập mật khẩu" required>  
+                </div>
+    
+                <a href="#" class="forgot-password">Quên mật khẩu?</a>
+    
+                <button type="submit" class="login">Đăng nhập</button>
+                <div class="login_or">
+                    <div class="line"></div>
+                    <p>HOẶC</p>
+                    <div class="line"></div>
+                </div>
+                <div class="login_by">
+                  <button class="fb">
+                    <div class="img"><img src="/img/fb-removebg-preview.png" alt=""></div>
+                    Facebook
+                  </button>
+                  <button class="google">
+                    <div class="img"><img src="/img/google.png" alt=""></div>
+                    Google
+                  </button>
+                </div>
+                <div class="register">
+                    <p>Bạn chưa có tài khoản?</p> <a href="/register/index.html">Đăng kí</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/login/app.js"></script>
+    
+</body>
+
+</html>

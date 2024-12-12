@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarStore</title>
+  <link rel="stylesheet" href="/home/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="javascript:void(0)">
+        <h2 class="car">Car</h2>
+        <h2 class="store">Store</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Sản phẩm</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/main-admin/index.html">Liên hệ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login/index.html">Đăng nhập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register/index.html">Đăng kí</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Tìm kiếm xe">
+          <button>Tìm kiếm</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="title">
+          <div class="logo">
+            <h2>CarStore</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt voluptate deserunt dolores, a ipsum quam
+            laudantium enim atque ea inventore officia nobis illo consequatur porro sit ducimus nostrum temporibus id.
+          </p>
+          <button>Get here</button>
+        </div>
+        <img src="/img/bugati.jpg" alt="" class="d-block w-100">
+
+      </div>
+      <div class="carousel-item">
+        <div class="title">
+          <div class="logo">
+            <h2>CarStore</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt voluptate deserunt dolores, a ipsum quam
+            laudantium enim atque ea inventore officia nobis illo consequatur porro sit ducimus nostrum temporibus id.
+          </p>
+          <button>Get here</button>
+        </div>
+        <img src="/img/hinh-nen-sieu-xe-2.jpg" alt="" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <div class="title">
+          <div class="logo">
+            <h2>CarStore</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt voluptate deserunt dolores, a ipsum quam
+            laudantium enim atque ea inventore officia nobis illo consequatur porro sit ducimus nostrum temporibus id.
+          </p>
+          <button>Get here</button>
+        </div>
+        <img src="/img/hinh-nen-sieu-xe-3.jpg" alt="" class="d-block w-100">
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div class=" container product-vinfast">
+    <div class="title">
+      <h2>Vinfast</h2>
+      <div class="list-product">
+        <div class="row">
+          <div class="col-4 item">
+            <img src="/img/vf3-pink.jpg" alt="">
+            <div class="name">Vinfast-VF3</div>
+            <div class="price">255 triệu</div>
+          </div>
+          <div class="col-4 item">
+            <img src="/img/lux2.0.jpg" alt="">
+            <div class="name">Vinfast Lux 2.0</div>
+            <div class="price"> 1 tỷ 100 triệu</div>
+          </div>
+          <div class="col-4 item">
+            <img src="/img/vf6.jpg" alt="">
+            <div class="name">Vinfast-VF6</div>
+            <div class="price">655 triệu</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 item">
+            <img src="/img/vf7.jpg" alt="">
+            <div class="name">Vinfast-VF7</div>
+            <div class="price">745 triệu</div>
+          </div>
+          <div class="col-4 item">
+            <img src="/img/vf8 lux plus.jpg" alt="">
+            <div class="name">Vinfast-VF8 Lux Plus</div>
+            <div class="price">799 triệu</div>
+          </div>
+
+          <div class="col-4 item">
+            <img src="/img/vf9.jpg" alt="">
+            <div class="name">Vinfast-VF9</div>
+            <div class="price">825 triệu</div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <div class="container list-vinfast-vf3">
+    <h2>Dòng xe Vinfast VF3 năm 2025</h2>
+    <div class="product-vf3">
+      <img class="product-vf3" src="/img/vf3-blue.jpg" alt="">
+    </div>
+    <div class="list-vf3">
+      <div class="item">
+        <img src="/img/vf3-blue.jpg" alt="">
+        <h3>VF3-BLUE</h3>
+      </div>
+      <div class="item">
+        <img src="/img/vf3-grown.jpg" alt="">
+        <H3>VF3-GROWN</H3>
+      </div>
+      <div class="item">
+        <img src="/img/vf3-pink.jpg" alt="">
+        <H3>VF3-PINK</H3>
+      </div>
+      <div class="item">
+        <img src="/img/vf3-white.jpg" alt="">
+        <H3>VF3-WHITE</H3>
+      </div>
+      <div class="item">
+        <img src="/img/vf3-yellow.jpg" alt="">
+        <H3>VF3-YELLOW</H3>
+      </div>
+
+    </div>
+  </div>
+  <div class="container-fluid contact">
+    
+  
+   
+
+     
+        <form action="" class="contact-form" >
+          <h2>Liên hệ</h2>
+          <div class="form-group name">
+            <label for="name">Tên:</label>
+            <input type="text" id="name"  placeholder="Nhập tên của bạn" >
+            <p class="false-name">Bạn chưa nhập tên</p>
+          </div>
+          <div class="form-group email">
+            <label for="email">Email:</label>
+            <input  id="email"  placeholder="Nhập email của bạn" >
+            <p class="false-email">Bạn chưa nhập email</p>
+          </div>
+          <div class="form-group address">
+            <label for="address">Địa chỉ:</label>
+            <input type="text" id="address" name="address" placeholder="Nhập địa chỉ của bạn">
+            <p class="false-address">Bạn chưa nhập địa chỉ</p>
+          </div>
+          <div class="form-group">
+            <label for="feedback">Đánh giá:</label>
+            <textarea id="feedback" name="feedback" placeholder="Viết đánh giá của bạn tại đây"></textarea>
+          </div>
+          <button type="submit">Gửi</button>
+          <p class="true">Cảm ơn bạn đã đánh giá</p>
+        </form>
+    
+    </div>
+    <footer class="container-fluid">
+      <div class="container">
+       <div class="row footer">
+        <div class="col-4 about-footer ">
+         <div class="logo">
+          <h2 class="car">Car</h2><h2 class="store">store</h2>
+         </div>
+         <div class="slogan">
+          <h4>Mãnh liệt tinh thần Việt Nam</h4>
+         </div>
+        </div>
+        <div class="col-4 support">
+          <h4>Hỗ trợ khách hàng</h4>
+         
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Sản phẩm</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Đăng nhập</a></li>
+            <li><a href="">Đăng kí</a></li>
+         
+        </div>
+        <div class="col-4 contact-footer">
+          <h4>Liên hệ</h4>
+      
+            <li><a href="">Email: phanquocbaobh.2000@gmail.com</a></li>
+            <li><a href="">SDT: 0375293317</a></li>
+            <li><a href="">Địa chỉ: Hòa Khánh Bắc- Liên Chiểu- Đà Nẵng</a></li>
+         
+        </div>
+       </div>
+      </div>
+    </footer>
+
+ 
+
+  <script src="/home/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

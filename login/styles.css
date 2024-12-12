@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/img/360_F_692612180_XAUFLe7Mw3Vvef8H33QudG16RWh9H0d1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  background-color: #ffffffa2;
+  padding: 30px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-form h2 {
+  margin: 0 0 20px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+.login-form .forgot-password {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  float: right;
+}
+
+.login-form .forgot-password:hover {
+  color: #4caf50;
+}
+.login_or {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.line {
+  flex-grow: 1;
+  border-bottom: 1px solid #0a0a0a;
+}
+.login_by {
+  display: flex;
+  gap: 10%;
+}
+
+.login_by img {
+  width: 25px;
+  margin-right: 5px;
+}
+.login_by button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #0a0a0a;
+}
+
+.login_by .google {
+  width: 45%;
+  text-align: center;
+  display: flex;
+}
+.login_by .fb {
+  width: 45%;
+  text-align: center;
+  display: flex;
+}
+.register {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.register a {
+  text-decoration: none;
+  color: #4caf50;
+}
+.register a:hover {
+  color: #45a049;
+}

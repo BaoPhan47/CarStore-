@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 80px;
+  background-color: #4caf50;
+  /* backdrop-filter:blur(10px);
+      background: transparent; */
+  transition: 0.5s;
+}
+.sidebar span {
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar.active span {
+  opacity: 1;
+  pointer-events: auto;
+}
+.sidebar.active {
+  width: 260px;
+}
+.sidebar.active .bx-menu {
+  left: 90%;
+}
+
+.logo_menu {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+.logo_menu .logo {
+  width: 100px;
+  display: none;
+}
+.sidebar.active .logo_menu .logo {
+  display: flex;
+}
+.logo_menu .bx-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+  cursor: pointer;
+  color: white;
+  justify-content: center;
+}
+.ul-list {
+  list-style: none;
+}
+.ul-list .list-item a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-left: 20px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.ul-list .list-item a i {
+  margin-right: 10px;
+}
+.ul-list .list-item {
+  padding: 10px 0;
+  margin: 7px;
+  border-radius: 6px;
+}
+.ul-list .list-item.active {
+  background: rgba(104, 103, 103, 0.644);
+}
+.ul-list .list-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.ul-list .list-item a:hover {
+  color: black;
+}
+header {
+  margin-left: 80px;
+  transition: margin-left 0.3s;
+  padding: 20px;
+  background-color: aliceblue;
+}
+.sidebar.active ~ header {
+  margin-left: 250px;
+}
+.main-content {
+  margin-left: 80px;
+  padding: 20px;
+
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.sidebar.active ~ .main-content {
+  margin-left: 250px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .login li {
+  list-style: none;
+  padding: 10px 0;
+  position: relative;
+}
+header .login li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+header .login .list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+
+  display: none;
+}
+header .login .list li {
+  background: none;
+
+  border-radius: 7px;
+  margin-top: 5px;
+}
+header .login .list li:hover {
+  background-color: #818181;
+}
+
+header .login li:hover .list {
+  display: block;
+}
+.logo {
+  font-size: x-large;
+  margin: 0 30px;
+  display: flex;
+}
+.logo h3 {
+  text-transform: uppercase;
+}
+.logo .car {
+  color: #d3290b;
+}

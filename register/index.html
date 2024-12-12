@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/register/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="register-form">
+            <h2>Đăng kí</h2>
+            <form action="#" id="up">
+                <div class="email">
+                    <label for="username">Tên đăng nhập</label>
+                    <input type="text" id="username" placeholder="Nhập tên đăng nhập" >
+                    <p class="error-username">Bạn chưa nhập username</p>
+                </div>
+                <div class="password">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" id="password" placeholder="Nhập mật khẩu" >  
+                    <p class="error-pass">Bạn chưa nhập password</p>
+                    <p class="error-passlength">Mật khẩu phải từ 8 kí tự trở lên</p>
+                 
+
+                </div>
+                <div class="re-enter_password">
+                    <label for="re-enter_password">Nhập lại mật khẩu</label>
+                    <input type="password" id="re-enter_password" placeholder="Nhập lại mật khẩu" >  
+                    <p class="error-re-enter_password">Bạn chưa xác nhận password</p>
+                    <p class="error-re-enter_passwordrepeat
+                    ">Mật khẩu không trùng</p>
+
+                </div>
+    
+             
+    
+                <button type="submit" class="login">Đăng kí</button>
+                <p class="true">Bạn đã đăng kí thành công</p>
+                <div class="login_or">
+                    <div class="line"></div>
+                    <p>HOẶC</p>
+                    <div class="line"></div>
+                </div>
+                <div class="login_by">
+                  <button class="fb">
+                    <div class="img"><img src="/img/fb-removebg-preview.png" alt=""></div>
+                    Facebook
+                  </button>
+                  <button class="google">
+                    <div class="img"><img src="/img/google.png" alt=""></div>
+                    Google
+                  </button>
+                </div>
+                <div class="register">
+                    <p>Bạn chưa có tài khoản?</p> <a href="/login/index.html">Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/register/app.js"></script>
+</body>
+
+</html>
